@@ -9,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  url_launcher: ^6.1.14
 
 dev_dependencies:
   flutter_test:
@@ -21,6 +22,12 @@ flutter:
   assets:
     - assets/sound/butterfly.opus
     - assets/sound/butterfly-lesson.opus
+    - assets/images/img1.png
+    - assets/images/img2.png
+    - assets/images/img3.png
+    - assets/images/img4.png
+    - assets/images/img5.png
+    - assets/images/img6.png
 
   fonts:
     - family: OpenDyslexic
