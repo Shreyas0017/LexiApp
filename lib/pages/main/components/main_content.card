@@ -1,0 +1,33 @@
+import 'package:flutter/material.dart';
+import 'feature_card.dart';
+
+class MainContent extends StatelessWidget {
+  final bool useOpenDyslexicFont;
+
+  const MainContent({
+    super.key,
+    required this.useOpenDyslexicFont,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return ListView(
+      padding: const EdgeInsets.all(16),
+      children: [
+        FeatureCard(
+          title: 'Customize Text',
+          description: 'Adjust font size, style, and spacing to your preferences.',
+          icon: Icons.text_fields,
+          useOpenDyslexicFont: useOpenDyslexicFont,
+        ),
+        const SizedBox(height: 16),
+        FeatureCard(
+          title: 'Reading Tools',
+          description: 'Access reading guides and focus tools.',
+          icon: Icons.remove_red_eye,
+          useOpenDyslexicFont: useOpenDyslexicFont,
+        ),
+      ],
+    );
+  }
+}
