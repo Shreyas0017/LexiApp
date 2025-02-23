@@ -57,7 +57,7 @@ class MainPage extends StatelessWidget {
         image: 'assets/images/img3.png',
         title: 'Dyslexia-Friendly Converter',
         description: 'Try converter',
-        url: 'https://lexishift-new.onrender.com/',
+        url: 'https://lexishift-1.onrender.com/',
         color: Colors.purple.shade400,
       ),
       ResourceItem(
