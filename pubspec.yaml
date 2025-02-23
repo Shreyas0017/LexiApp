@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   url_launcher: ^6.1.14
+  flutter_svg: ^2.0.9
 
 dev_dependencies:
   flutter_test:
@@ -28,6 +29,7 @@ flutter:
     - assets/images/img4.png
     - assets/images/img5.png
     - assets/images/img6.png
+    - assets/images/landing_illustration.svg
 
   fonts:
     - family: OpenDyslexic
